@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ServerFormController">
+    <children>
+        <Label layoutX="251.0" layoutY="14.0" prefHeight="46.0" prefWidth="99.0" text="Server">
+            <font>
+                <Font name="System Bold" size="31.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="txtAreaServer" editable="false" layoutX="78.0" layoutY="86.0" prefHeight="200.0" prefWidth="445.0" />
+        <TextField fx:id="txtFealdServer" layoutX="78.0" layoutY="333.0" onKeyPressed="#Show" prefHeight="38.0" prefWidth="373.0" />
+        <Button layoutX="477.0" layoutY="337.0" mnemonicParsing="false" onAction="#btnOnActionSendServer" text="Send">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
